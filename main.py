@@ -53,7 +53,7 @@ About_page = st.Page(
     "About.py",
     default=True,
 )
-project_1_page = st.Page("get_faces_from_camera_tkinter.py")
+project_1_page = st.Page("app_streamlit_register.py")
 project_2_page = st.Page("app_streamlit_login.py")
 project_3_page = st.Page("app_streamlit_logout.py")
 project_4_page = st.Page("init_database.py")
@@ -114,6 +114,7 @@ st.logo("assets/logo.png")
 # ---------------------- RUN PAGES ----------------------
 
 pg.run()
+
 
 
 
