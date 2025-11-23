@@ -19,3 +19,5 @@ protobuf==6.31.1
 
 pyarrow==21.0.0
 watchdog==6.0.0
+schedule==1.2.2
+
