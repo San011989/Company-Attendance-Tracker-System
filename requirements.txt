@@ -1,10 +1,14 @@
 # -------------------- STREAMLIT --------------------
-streamlit==1.31.1
-streamlit-webrtc==0.47.4
+streamlit==1.32.2
+
+# -------------------- WEBRTC (Python 3.11 Compatible) --------------------
+streamlit-webrtc==0.53.11
+
+# -------------------- MAPS --------------------
 streamlit-folium==0.25.0
 folium==0.16.0
 
-# -------------------- FACE RECOGNITION (Cloud Safe) --------------------
+# -------------------- FACE RECOGNITION (DeepFace CPU-only) --------------------
 deepface==0.0.79
 
 # -------------------- CV + IMAGE --------------------
