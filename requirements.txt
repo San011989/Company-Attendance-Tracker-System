@@ -1,33 +1,21 @@
-# --------------------
-# CORE STREAMLIT
-# --------------------
-streamlit==1.52.0
-streamlit-webrtc==0.47.6
+# -------------------- STREAMLIT --------------------
+streamlit==1.31.1
+streamlit-webrtc==0.47.4
 streamlit-folium==0.25.0
 folium==0.16.0
 
-# --------------------
-# FACE RECOGNITION (DeepFace → no compiling, works on Streamlit Cloud)
-# --------------------
-deepface==0.0.93
+# -------------------- FACE RECOGNITION (Cloud Safe) --------------------
+deepface==0.0.79
 
-# --------------------
-# COMPUTER VISION
-# --------------------
-opencv-python-headless==4.10.0.84
+# -------------------- CV + IMAGE --------------------
+opencv-python-headless==4.7.0.72
 numpy==1.26.4
-Pillow==10.4.0
+Pillow==10.2.0
 
-# --------------------
-# UTILITIES
-# --------------------
+# -------------------- DATA + UTILS --------------------
 pandas==2.2.2
-requests==2.32.3
+requests==2.31.0
 openpyxl==3.1.2
 protobuf==4.25.3
-
-# --------------------
-# OPTIONAL / SAFE
-# --------------------
 gdown==5.2.0
-schedule==1.2.1
+schedule==1.2.0
